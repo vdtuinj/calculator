@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekenmasjiene</title>
+
+    <link rel="stylesheet" href="./calc.css">
+    <script src="./calc.js"></script>
+</head>
+<body>
+    
+</body>
+<h1>Hallo Calculator</h1>
+
+<div class="calcframe"> <!-- Calculator container-->
+    <div class="calcdisp"><!-- Calculator Display-->
+        <span id="previousval">0</span>
+       <div class="calcinput"><input type="text" id="scherm"></div> 
+    </div>
+    <div class="calcbtns" > <!-- Calculator Buttons-->
+        <div class="calcbtn" onclick="press_c()">C</div>
+        <div class="calcbtn">/</div>
+        <div class="calcbtn">*</div>
+        <div class="calcbtn">-</div>
+        <div class="calcbtn" onclick="press_num(1)">1</div>
+        <div class="calcbtn" onclick="press_num(2)">2</div>
+        <div class="calcbtn" onclick="press_num(3)">3</div>
+        <div class="calcbtn" onclick="press_add()">+</div>
+        <div class="calcbtn" onclick="press_num(4)">4</div>
+        <div class="calcbtn" onclick="press_num(5)">5</div>
+        <div class="calcbtn" onclick="press_num(6)">6</div>
+        <div class="calcbtn">=</div>
+        <div class="calcbtn" onclick="press_num(7)">7</div>
+        <div class="calcbtn" onclick="press_num(8)">8</div>
+        <div class="calcbtn" onclick="press_num(9)">9</div>
+        <div class="calcbtn">.</div>
+    </div>
+</div>
+</html>

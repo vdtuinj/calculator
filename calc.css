@@ -1,0 +1,72 @@
+body{
+    background-color: azure;
+
+}
+
+h1{
+    color: blue;
+}
+
+.calcframe{
+    height: 450px;
+    width: 350px;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.calcdisp{
+   position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    overflow: hidden;
+   
+    
+}
+
+.calcinput{
+   position: absolute;
+    color: white;
+    height: 75%;
+    background-color: #000000;
+    width: 350px;
+
+    bottom: 0;
+       
+}
+.calcinput input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: xx-large;
+}
+.calcbtns{
+    
+    background-color: rgb(175, 24, 42);
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+h1{
+    display: inline-block;
+}
+.calcbtn{
+    display: table-cell;
+    height: 50px;
+    width: 50px;
+    background-color: coral;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#previousval{
+    color: white;
+    margin: 20px;
+}
