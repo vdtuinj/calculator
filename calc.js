@@ -45,26 +45,37 @@ function press_add(){
 
 */
 
-function press_operator(operator){
-switch (operator) {
-    case "+":
-        //Do Something
-        add();
-        
-        break;
+function press_operator(bewerking){
+    var geheugen = document.getElementById("previousval");
+    var invoer = document.getElementById("scherm");
+    
+    if (operator == null){
+        geheugen.innerHTML = invoer.value;
+        invoer.value = '';
+    }
+    else{
+        switch (bewerking) {
+            case "+":
+                //Do Something
+                //add();
+                
+                break;
 
-    default:
-        break;
-}
+            default:
+                break;
+        }
+    }
+
     return;
 }
 
 function add(){
     if (operator == null){
-        alert(' no operator')
+        //alert(' no operator')
         operator = '+'
     }
 else{
-    alert(operator)
+    //alert(operator)
+
 }
 }
