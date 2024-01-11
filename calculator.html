@@ -11,7 +11,7 @@
 <body>
     
 </body>
-<h1>Hallo Calculator</h1>
+<h1>Hallo Calculator</h1><span>v0.1</span>
 
 <div class="calcframe"> <!-- Calculator container-->
     <div class="calcdisp"><!-- Calculator Display-->
@@ -20,9 +20,9 @@
     </div>
     <div class="calcbtns" > <!-- Calculator Buttons-->
         <div class="calcbtn" onclick="press_c()">C</div>
-        <div class="calcbtn">/</div>
-        <div class="calcbtn">*</div>
-        <div class="calcbtn">-</div>
+        <div class="calcbtn" onclick="press_operator('/')">/</div>
+        <div class="calcbtn" onclick="press_operator('*')">*</div>
+        <div class="calcbtn" onclick="press_operator('-')">-</div>
         <div class="calcbtn" onclick="press_num(1)">1</div>
         <div class="calcbtn" onclick="press_num(2)">2</div>
         <div class="calcbtn" onclick="press_num(3)">3</div>
@@ -30,7 +30,7 @@
         <div class="calcbtn" onclick="press_num(4)">4</div>
         <div class="calcbtn" onclick="press_num(5)">5</div>
         <div class="calcbtn" onclick="press_num(6)">6</div>
-        <div class="calcbtn">=</div>
+        <div class="calcbtn" onclick="result()">=</div>
         <div class="calcbtn" onclick="press_num(7)">7</div>
         <div class="calcbtn" onclick="press_num(8)">8</div>
         <div class="calcbtn" onclick="press_num(9)">9</div>
